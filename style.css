@@ -1,0 +1,40 @@
+#consl {
+    resize: none;
+    width: 50%;
+    height: 500px;
+    font-weight: 1000;
+}
+
+* {
+    font-family: Consolas;
+    text-align: center;
+}
+
+.con {
+    text-align: center;
+}
+
+*:focus {
+    outline: 0;
+}
+
+#format {
+    text-align: left;
+}
+
+#guess {
+    color: lightblue;
+}
+
+#stats {
+    background-color: grey;
+    width: 50%;
+    margin-left: 25%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#stats * {
+    text-align: left;
+    background-color: grey;
+}

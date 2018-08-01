@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <head>
+        <link rel="icon" href="assets/console.png">
+        <title>Password Cracker</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="chars.js"></script>
+        <script src="cracker.js"></script>
+    </head>
+    
+    <body>
+        
+        <button type="submit" id="refresh" class="con">Restart</button>
+        <br />
+        <input id="format" type="text" placeholder="Enter format" class="con" />
+        <br />
+        <button type="submit" id="genShit" class="con">Generate</button>
+        <br />
+        <input type="number" id="rate" placeholder="Guesses per second" class="con" />
+        <br />
+        <textarea id="consl" readonly class="con"></textarea>
+        <br />
+        <div id="stats" class="con">
+            
+            <p>Statistics:</p>
+            <p id="target"></p>
+            <p id="guess"></p>
+            <p id="cycles"></p>
+        </div>
+    </body>
+</html>
